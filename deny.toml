@@ -33,6 +33,10 @@ allow = [
     "Zlib"
 ]
 
+exceptions = [
+    { name = "rust-binary-test", allow = ["OSL-3.0"] }
+]
+
 [sources]
 unknown-registry = "deny"
 unknown-git = "deny"
